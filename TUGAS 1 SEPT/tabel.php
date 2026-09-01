@@ -16,42 +16,12 @@ include_once("navbar.php");
       <!--awal card -->
        <div class="card">
   <div class="card-header">
-   <h3>Tabel</h3> 
+    Featured
   </div>
   <div class="card-body">
-  <!-- awal tabel -->
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">no</th>
-      <th scope="col">nama depan</th>
-      <th scope="col">nama belakang</th>
-      <th scope="col">kelas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>fhadilah</td>
-      <td>kristiawan</td>
-      <td>XI RPL 4</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>richo</td>
-      <td>aldira</td>
-      <td>XI RPL 4</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>asar</td>
-      <td>andika</td>
-      <td>XI RPL 4</td>
-    </tr>
-  </tbody>
-</table>
-  <!-- akhir tabel -->
-    
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
        </div>
       <!-- akhir card -->
@@ -67,4 +37,4 @@ include_once("navbar.php");
 </div>
 <!-- akhir konten -->
 
-<?php include("footer.php"); ?>
+<?php include('footer.php'); ?>
